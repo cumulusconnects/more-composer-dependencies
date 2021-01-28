@@ -38,12 +38,14 @@
 	"require": {
 		"cumulusconnects/cumulus": "dev-master",
 		"cumulusconnects/customize-cumulus": "dev-main",
-		"elevati/wp-api-multiple-posttype": "1.0.4",
 		"schuhwerk/event-organiser-rest-api": "dev-master",
-		"wpackagist-plugin/cookie-notice": "1.3.2",
-		"wpackagist-plugin/relevanssi": "4.10.2",
+		"elevati/wp-api-multiple-posttype": "1.0.4",
+		"wpackagist-plugin/acf-to-rest-api": "3.*",
+		"wpackagist-plugin/cookie-notice": "^1.3.2",
+		"wpackagist-plugin/relevanssi": "^4.10.2",
 		"wpackagist-plugin/wp-graphql": "1.0.5",
-		"wpackagist-plugin/advanced-custom-fields": "5.9.3",
+		"wpackagist-plugin/user-registration": "^1.9.3",
+		"wpackagist-plugin/advanced-custom-fields": "^5.9.3",
 		"wpackagist-plugin/wp-api-multiple-posttype": "1.*"
 	},
 	"minimum-stability": "dev"
