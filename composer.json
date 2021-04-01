@@ -33,20 +33,26 @@
 					"reference": "master"
 				}
 			}
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/dol-lab/taxonomy-helper"
 		}
 	],
 	"require": {
 		"cumulusconnects/cumulus": "dev-master",
 		"cumulusconnects/customize-cumulus": "dev-main",
-		"schuhwerk/event-organiser-rest-api": "dev-master",
+		"dol-lab/taxonomy-helper": "dev-main",
 		"elevati/wp-api-multiple-posttype": "1.0.4",
+		"schuhwerk/event-organiser-rest-api": "dev-master",
 		"wpackagist-plugin/acf-to-rest-api": "3.*",
+		"wpackagist-plugin/advanced-custom-fields": "^5.9.3",
 		"wpackagist-plugin/cookie-notice": "2.*",
 		"wpackagist-plugin/relevanssi": "^4.10.2",
-		"wpackagist-plugin/wp-graphql": "1.0.5",
 		"wpackagist-plugin/user-registration": "^1.9.3",
-		"wpackagist-plugin/advanced-custom-fields": "^5.9.3",
-		"wpackagist-plugin/wp-api-multiple-posttype": "1.*"
+		"wpackagist-plugin/wp-api-multiple-posttype": "1.*",
+		"wpackagist-plugin/wp-graphql": "1.0.5"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }
